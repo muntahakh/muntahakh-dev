@@ -1,0 +1,542 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muntaha is a Laravel backend developer specializing in APIs, database design, integrations, and application reliability.">
+
+    <title>Muntaha | Laravel Backend Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">muntaha<span>.dev</span></a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#case-studies">Case Studies</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact" class="nav-cta">Let's Talk <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        PHP & LARAVEL BACKEND DEVELOPER
+                    </div>
+
+                    <h1>
+                        Building secure,
+                        <span>scalable web applications.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Backend developer with 3+ years of experience building RESTful APIs,
+                        integrating payment gateways, optimizing databases, and maintaining
+                        production Laravel applications.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#case-studies" class="button button-primary">
+                            Explore my work <span>↘</span>
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Contact me
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div>
+                            <strong>3+ years</strong>
+                            <span>Professional experience</span>
+                        </div>
+                        <div>
+                            <strong>PHP · Laravel</strong>
+                            <span>Backend development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Illustration of a backend API response">
+                    <div class="code-window">
+                        <div class="window-bar">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="window-label">api-response.json</span>
+                        </div>
+
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="line-number">01</span>
+                                <span>{</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="line-number">02</span>
+                                <span><span class="code-key">"status"</span>: <span class="code-string">"success"</span>,</span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="line-number">03</span>
+                                <span><span class="code-key">"data"</span>: {</span>
+                            </div>
+                            <div class="code-line indent-2">
+                                <span class="line-number">04</span>
+                                <span><span class="code-key">"framework"</span>: <span class="code-string">"Laravel"</span>,</span>
+                            </div>
+                            <div class="code-line indent-2">
+                                <span class="line-number">05</span>
+                                <span><span class="code-key">"architecture"</span>: <span class="code-string">"clean"</span>,</span>
+                            </div>
+                            <div class="code-line indent-2">
+                                <span class="line-number">06</span>
+                                <span><span class="code-key">"reliable"</span>: <span class="code-bool">true</span></span>
+                            </div>
+                            <div class="code-line indent">
+                                <span class="line-number">07</span>
+                                <span>}</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">08</span>
+                                <span>}</span>
+                            </div>
+                        </div>
+
+                        <div class="response-status">
+                            <span class="status-dot"></span>
+                            <span>200 OK</span>
+                            <span class="response-time">JSON response</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-tag tag-top">
+                        <span class="tag-icon">⌘</span>
+                        Clean code
+                    </div>
+
+                    <div class="floating-tag tag-bottom">
+                        <span class="tag-icon">↗</span>
+                        API integrations
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-bottom container">
+                <span>TECHNOLOGIES I WORK WITH</span>
+                <div class="tech-list">
+                    <span>PHP</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>REST APIs</span>
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="section-heading">
+                    <span class="eyebrow">01 / ABOUT ME</span>
+                    <h2>Practical engineering.<br><span>Thoughtful solutions.</span></h2>
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        I'm a PHP and Laravel backend developer with over three years
+                        of professional experience designing, developing, and maintaining
+                        web applications and RESTful APIs.
+                    </p>
+
+                    <p>
+                        My experience includes mobile application API development,
+                        school management ERP modules, payment gateway integrations,
+                        authentication, role-based access control, and MySQL query
+                        optimization.
+                    </p>
+
+                    <p>
+                        I've also worked on Laravel framework upgrades, application
+                        security, deployment workflows, Docker-based environments,
+                        and production debugging. I value clean code, maintainable
+                        architecture, and reliable application behavior.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Need backend development support?
+                        <span>Let's talk ↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section class="section case-section" id="case-studies">
+            <div class="container">
+                <div class="section-top">
+                    <div class="section-heading">
+                        <span class="eyebrow">02 / SELECTED WORK</span>
+                        <h2>Case studies<span>.</span></h2>
+                    </div>
+
+                    <p class="section-intro">
+                        A closer look at the technical problems I've worked
+                        on, how I approached them, and the lessons learned.
+                    </p>
+                </div>
+
+                <div class="case-grid">
+
+                    <!-- Case Study 1 -->
+                    <article class="case-card">
+                        <div class="case-card-top">
+                            <span class="case-number">CASE / 01</span>
+                            <span class="case-icon" aria-hidden="true">↗</span>
+                        </div>
+
+                        <div class="case-illustration api-illustration" aria-hidden="true">
+                            <div class="api-node node-one">Client</div>
+                            <div class="api-connector"></div>
+                            <div class="api-node node-two">API</div>
+                            <div class="api-connector"></div>
+                            <div class="api-node node-three">Service</div>
+                        </div>
+
+                        <div class="case-card-content">
+                            <div class="tag-list">
+                                <span>Laravel</span>
+                                <span>REST APIs</span>
+                                <span>PHP</span>
+                            </div>
+
+                            <h3>Third-party API integration</h3>
+
+                            <p>
+                                An examination of integrating an external
+                                service into a Laravel application, including
+                                request validation, error handling, and
+                                response processing.
+                            </p>
+
+                            <button
+                                class="text-link case-link"
+                                data-case="api"
+                                aria-haspopup="dialog"
+                            >
+                                Read case study <span>↗</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 2 -->
+                    <article class="case-card">
+                        <div class="case-card-top">
+                            <span class="case-number">CASE / 02</span>
+                            <span class="case-icon" aria-hidden="true">⌁</span>
+                        </div>
+
+                        <div class="case-illustration cache-illustration" aria-hidden="true">
+                            <div class="cache-box">Request</div>
+                            <div class="cache-arrow">↓</div>
+                            <div class="cache-box cache-highlight">Cache layer</div>
+                            <div class="cache-arrow">↓</div>
+                            <div class="cache-box">Response</div>
+                        </div>
+
+                        <div class="case-card-content">
+                            <div class="tag-list">
+                                <span>Laravel</span>
+                                <span>Caching</span>
+                                <span>Debugging</span>
+                            </div>
+
+                            <h3>Application caching and reliability</h3>
+
+                            <p>
+                                Investigating inconsistent page responses,
+                                tracing caching behavior, and verifying
+                                the affected request flow.
+                            </p>
+
+                            <button
+                                class="text-link case-link"
+                                data-case="caching"
+                                aria-haspopup="dialog"
+                            >
+                                Read case study <span>↗</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Case Study 3 -->
+                    <article class="case-card">
+                        <div class="case-card-top">
+                            <span class="case-number">CASE / 03</span>
+                            <span class="case-icon" aria-hidden="true">⌘</span>
+                        </div>
+
+                        <div class="case-illustration architecture-illustration" aria-hidden="true">
+                            <div class="architecture-layer">Controller</div>
+                            <div class="architecture-layer">Service</div>
+                            <div class="architecture-layer">Database</div>
+                        </div>
+
+                        <div class="case-card-content">
+                            <div class="tag-list">
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>Architecture</span>
+                            </div>
+
+                            <h3>Backend maintainability</h3>
+
+                            <p>
+                                Exploring how separation of responsibilities,
+                                validation, and database design can make
+                                backend applications easier to maintain.
+                            </p>
+
+                            <button
+                                class="text-link case-link"
+                                data-case="architecture"
+                                aria-haspopup="dialog"
+                            >
+                                Read case study <span>↗</span>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="case-disclaimer">
+                    Case study descriptions must be updated to reflect the
+                    actual work performed, decisions made, and verified results.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">03 / TOOLKIT</span>
+                    <h2>My technical toolkit<span>.</span></h2>
+                    <p class="section-intro">
+                        Technologies and practices I use in backend development.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <span class="skill-index">01</span>
+                        <h3>Backend Development</h3>
+                        <div class="skill-items">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>CodeIgniter</span>
+                            <span>Authorization</span>
+                            <span>RESTFul API Integration </span>
+                            <span>Third-Party API Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <span class="skill-index">02</span>
+                        <h3>Databases & Security</h3>
+                        <div class="skill-items">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>Query Optimization</span>
+                            <span>MongoDB</span>
+                            <span>Google reCAPTCHA</span>
+                            <span>Role-Based Access</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <span class="skill-index">03</span>
+                        <h3>Tools & Frontend</h3>
+                        <div class="skill-items">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Bitbucket</span>
+                            <span>Docker</span>
+                            <span>JavaScript</span>
+                            <span>jQuery</span>
+                            <span>React.js</span>
+                            <span>Vue.js</span>
+                            <span>HTML & CSS</span>
+                            <span>Bootstrap</span>
+                            <span>Material UI</span>
+                            <span>Agile / Scrum</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">CAREER / EXPERIENCE</span>
+                    <h2>Where I've worked<span>.</span></h2>
+                </div>
+
+                <div class="experience-list">
+
+                    <article class="experience-item">
+                        <div class="experience-date">
+                            Nov 2025 – Present
+                        </div>
+                        <div class="experience-content">
+                            <h3>PHP Laravel Developer</h3>
+                            <p class="experience-company">Creatif Soft</p>
+                            <ul>
+                                <li>Upgraded Laravel projects while addressing framework compatibility and security considerations.</li>
+                                <li>Implemented Google reCAPTCHA and worked on MySQL query optimization.</li>
+                                <li>Managed deployment activities, end-to-end testing, and production bug fixes.</li>
+                                <li>Developed responsive admin and user panels with role-based access control.</li>
+                                <li>Integrated Escrow.com for domain purchase transactions, including payment wizard flows and order status management.</li>
+                                <li>Implemented domain reservation and checkout workflows with database transactions and concurrency handling.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">
+                            Jul 2024 – Nov 2025
+                        </div>
+                        <div class="experience-content">
+                            <h3>PHP Developer</h3>
+                            <p class="experience-company">Arwaj Tech</p>
+                            <ul>
+                                <li>Developed RESTful APIs connecting a mobile application with a school management ERP.</li>
+                                <li>Implemented Fee Management and Payroll modules.</li>
+                                <li>Integrated Blinq and Kuickpay payment gateways.</li>
+                                <li>Optimized MySQL queries, contributing to a reported 40% performance improvement.</li>
+                                <li>Worked with Docker, Bitbucket, Agile sprints, and code reviews.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-date">
+                            Jul 2023 – Jul 2024
+                        </div>
+                        <div class="experience-content">
+                            <h3>PHP Laravel Developer</h3>
+                            <p class="experience-company">Tessaract Innovations</p>
+                            <ul>
+                                <li>Independently developed a web application using Laravel, including REST APIs, authentication, an admin dashboard, and a relational database schema.</li>
+                                <li>Contributed to team-based projects using Agile workflows.</li>
+                                <li>Worked with React.js and integrated frontend components with backend APIs.</li>
+                                <li>Participated in code reviews.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">EDUCATION</span>
+                    <h2>Academic background<span>.</span></h2>
+                </div>
+
+                <div class="education-list">
+                    <article class="education-item">
+                        <h3>Bachelor's in Software Engineering</h3>
+                        <p>2026 – Present</p>
+                    </article>
+
+                    <article class="education-item">
+                        <h3>Aptech Certified Computer Professional (ACCP)</h3>
+                        <p>2022 – 2025</p>
+                    </article>
+
+                    <article class="education-item">
+                        <h3>Intermediate in Commerce</h3>
+                        <p>2021</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-container">
+                <span class="eyebrow">04 / GET IN TOUCH</span>
+                <h2>Have a backend problem<br>to solve<span>?</span></h2>
+                <p>
+                    Need help with a Laravel application, API integration,
+                    or backend issue? Let's discuss the requirements.
+                </p>
+
+                <a href="mailto:muntahakh841@gmail.com" class="button button-primary" id="email-link">
+                    Email me <span>↗</span>
+                </a>
+
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" id="linkedin-link">LinkedIn ↗</a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" id="github-link">GitHub ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Case study dialog -->
+    <dialog class="case-dialog" id="case-dialog">
+        <div class="dialog-header">
+            <span class="eyebrow">CASE STUDY</span>
+            <button class="dialog-close" id="dialog-close" aria-label="Close case study">✕</button>
+        </div>
+
+        <div class="dialog-content" id="dialog-content">
+            <!-- Content is inserted by script.js -->
+        </div>
+    </dialog>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">muntaha<span>.dev</span></a>
+            <span>© <span id="current-year"></span> Muntaha</span>
+        </div>
+    </footer>
+
+</body>
+</html>
